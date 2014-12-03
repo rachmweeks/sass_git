@@ -1,8 +1,20 @@
 $textColor: #0000FF;
+$headerFont: Helvetica, sans-serif;
 
-body {width:60%; margin:0 auto;}
+@import "reset";
+@import "type";
+@import "layout";
+
 img {width:100%;}
 
-h1 {color:$textColor;}
-h2 {color:$textColor;}
+h1 {color:$textColor; font-family: $headerFont;}
+h2 {color:$textColor; font-family: $headerFont;}
 ul {color:$textColor;}
+
+nav {background-color: #FF0000;
+	ul {list-style: none; font-size: 2em;}
+}
+
+article {background-color: red;
+	ul {list-style: disc;font-size: 3em;}
+}
