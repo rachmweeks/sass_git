@@ -1,3 +1,17 @@
+body {
+  width: 60%;
+  margin: 0 auto; }
 
+img {
+  width: 100%; }
+
+h1 {
+  color: #0000FF; }
+
+h2 {
+  color: #0000FF; }
+
+ul {
+  color: #0000FF; }
 
 /*# sourceMappingURL=styles.css.map */
