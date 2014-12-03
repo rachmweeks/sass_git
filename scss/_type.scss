@@ -1,1 +1,22 @@
-body {font-size: 14px; line-height: 1.5em;}
+$textColor: #1F3D5C;
+$headerFont: Helvetica, sans-serif;
+$backgroundColor: #85A3C2;
+
+body {font-size: 1.02em; line-height: 1.8em;}
+
+
+h1, h2, h3 	{color:$textColor; font-family: $headerFont; padding: .5em 0 .5em 0;}
+ul 	{color:$textColor; padding: 2em; }
+p 	{padding: .5em; }
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.1em;}
+
+nav {background-color: $backgroundColor;
+	ul {list-style: none;}
+}
+
+article {background-color: $backgroundColor;
+	ul {list-style: disc; font-size: 1em;}
+}
